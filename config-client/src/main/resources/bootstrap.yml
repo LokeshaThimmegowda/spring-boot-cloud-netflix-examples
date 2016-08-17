@@ -4,30 +4,5 @@ spring:
     name: hello-config
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://lokesha:test1234@localhost:8888
       fail-fast: false 
-  profiles:
-    active: dev
-server:
-  port: 8002
-
-data: This is from the local 8002
-  
----
-spring:
-  application:
-    name: hello-config
-  cloud:
-    config:
-      uri: http://localhost:8888
-      fail-fast: false 
-  profiles:
-    active: qa
-    
-server:
-  port: 8003
-  
-data: This is from the local 8003
-  
-
-       

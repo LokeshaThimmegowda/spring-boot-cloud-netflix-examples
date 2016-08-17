@@ -2,3 +2,8 @@
 spring:
   application:
     name: discovery-client
+  cloud:
+    config:
+      uri: http://lokesha:test1234@localhost:8888
+      fail-fast: false
+value-from-config-server: Hello World from Discovery Client 

@@ -1,0 +1,13 @@
+---
+spring:  
+  profiles: dev  
+server:
+  port: 8033  
+data: This is from the local 8004
+
+---
+spring:  
+  profiles: qa  
+server:
+  port: 8034  
+data: This is from the local 8005
