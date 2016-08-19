@@ -1,3 +1,4 @@
 # spring-boot-cloud-netflix-examples
 
-Checkout each applications seperately and run the applications using gradlew bootRun
+Checkout each projects seperately and run the same using gradlew bootRun
+
