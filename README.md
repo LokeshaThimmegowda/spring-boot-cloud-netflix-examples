@@ -4,3 +4,5 @@ Each micro services built using Spring Boot, Spring cloud and Spring Netflix OSS
 
 Checkout each projects seperately and run the same using gradlew bootRun
 
+Updates from lokesh-mt
+
